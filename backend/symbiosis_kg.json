@@ -1,0 +1,83 @@
+{
+  "symbiosis_pairs": [
+    {
+      "waste_stream": "fly ash",
+      "source_industry": "thermal power plant",
+      "target_industry": "cement manufacturing",
+      "use": "partial replacement for clinker",
+      "carbon_saving_kg_per_tonne": 120,
+      "bangalore_relevance": true
+    },
+    {
+      "waste_stream": "e-waste copper",
+      "source_industry": "electronics recycling",
+      "target_industry": "wire manufacturing",
+      "use": "secondary raw material",
+      "carbon_saving_kg_per_tonne": 1500,
+      "bangalore_relevance": true
+    },
+    {
+      "waste_stream": "food waste",
+      "source_industry": "restaurant / hotel",
+      "target_industry": "biogas plant",
+      "use": "anaerobic digestion for energy",
+      "carbon_saving_kg_per_tonne": 300,
+      "bangalore_relevance": true
+    },
+    {
+      "waste_stream": "plastic scrap",
+      "source_industry": "packaging",
+      "target_industry": "road construction",
+      "use": "plastic road aggregate (NHAI approved)",
+      "carbon_saving_kg_per_tonne": 80,
+      "bangalore_relevance": true
+    },
+    {
+      "waste_stream": "textile offcuts",
+      "source_industry": "garment manufacturing",
+      "target_industry": "insulation / padding",
+      "use": "stuffing material for furniture / automotive",
+      "carbon_saving_kg_per_tonne": 60,
+      "bangalore_relevance": true
+    },
+    {
+      "waste_stream": "spent lubricant oil",
+      "source_industry": "automotive service",
+      "target_industry": "re-refining plant",
+      "use": "base oil recovery",
+      "carbon_saving_kg_per_tonne": 900,
+      "bangalore_relevance": false
+    },
+    {
+      "waste_stream": "construction debris",
+      "source_industry": "construction",
+      "target_industry": "brick / tile manufacturing",
+      "use": "recycled aggregate",
+      "carbon_saving_kg_per_tonne": 50,
+      "bangalore_relevance": true
+    },
+    {
+      "waste_stream": "sugarcane bagasse",
+      "source_industry": "sugar mill",
+      "target_industry": "paper mill / power plant",
+      "use": "fibre for paper or biomass fuel",
+      "carbon_saving_kg_per_tonne": 200,
+      "bangalore_relevance": false
+    }
+  ],
+  "r_hierarchy": [
+    "Refuse", "Rethink", "Reduce", "Reuse",
+    "Repair", "Refurbish", "Remanufacture",
+    "Repurpose", "Recycle", "Recover"
+  ],
+  "iso_14001_clauses": [
+    "4.1 Understanding the organization and its context",
+    "4.2 Understanding the needs of interested parties",
+    "6.1 Actions to address risks and opportunities",
+    "6.1.2 Environmental aspects",
+    "6.2 Environmental objectives",
+    "8.1 Operational planning and control",
+    "9.1 Monitoring, measurement, analysis and evaluation",
+    "10.2 Nonconformity and corrective action"
+  ]
+}
