@@ -32,7 +32,9 @@ Respond ONLY with a valid JSON object in this exact structure (no markdown, no e
   "iso_14044_alignment": "compliant/partial/non-compliant",
   "improvement_potential": ["3 specific recommendations to reduce carbon score"],
   "summary": "2-3 sentence plain English summary"
-}}"""
+}}
+
+Note: total_carbon_score MUST be a number between 0 and 100, where 100 means extreme carbon impact."""
 
     text = generate_with_retry(model, prompt)
     return parse_json_response(text)

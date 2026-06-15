@@ -404,7 +404,7 @@ export default function App() {
               <ScoreOrb score={synthesis.macea_score} grade={synthesis.grade} />
               <div style={{ textAlign: 'center' }}>
                 <div style={{ fontSize: 14, color: 'var(--text-secondary)', marginTop: 8 }}>
-                  Certification: {synthesis.certification_path?.slice(0, 80)}
+                  Certification: {synthesis.certification_path}
                 </div>
               </div>
             </div>
