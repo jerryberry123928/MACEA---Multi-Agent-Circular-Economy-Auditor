@@ -53,7 +53,8 @@ def run_synthesis(
         "sdg": 0.10
     }
 
-    lca_normalized = 100 - lca.get("total_carbon_score", 50)  # invert
+    lca_raw_score = lca.get("total_carbon_score", 50)
+    lca_normalized = max(0, min(100, 100 - lca_raw_score))  # invert and clamp
     raw_score = (
         circularity.get("overall_circularity_score", 0) * weights["circularity"] +
         lca_normalized * weights["lca"] +
